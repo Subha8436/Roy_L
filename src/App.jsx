@@ -429,18 +429,18 @@ const Reservations = () => {
                     </div>
                     <div>
                         <a
-                            href="tel:+1234567890" // Placeholder phone number
+                            href="tel:+918436756982" // Placeholder phone number
                             className="text-2xl font-bold tracking-wider block mb-4 hover:opacity-80 transition duration-150"
                             style={{ color: PRIMARY_COLOR }}
                         >
-                            Call Us: (123) 456-7890
+                            Call Us: +91 8436756982
                         </a>
                         <a
                             href="mailto:events@roylcafe.com" // Placeholder email
                             className="w-full py-3 text-lg font-bold uppercase rounded-lg border-2 text-center transform transition duration-300 hover:opacity-80"
                             style={{ borderColor: PRIMARY_COLOR, color: PRIMARY_COLOR }}
                         >
-                            Inquire About Events
+                            Contact With Developer
                         </a>
                     </div>
                 </div>
