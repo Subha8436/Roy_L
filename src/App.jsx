@@ -75,7 +75,7 @@ const MobileMenu = ({ isOpen, toggleMenu }) => {
                         </a>
                     ))}
                     <a
-                        href="#reservations"
+                        href="https://dotkart.netlify.app/"
                         onClick={toggleMenu}
                         className="mt-8 block w-full py-3 text-center text-lg font-bold rounded-lg shadow-lg hover:opacity-90 transition duration-200"
                         style={{ backgroundColor: PRIMARY_COLOR, color: BG_DARK }}
@@ -120,7 +120,7 @@ const Header = () => {
                             </a>
                         ))}
                         <a
-                            href="#reservations"
+                            href="https://dotkart.netlify.app/"
                             className="ml-6 px-6 py-2 text-sm font-bold uppercase rounded-full shadow-lg transform transition duration-300 hover:scale-[1.03]"
                             style={{ backgroundColor: PRIMARY_COLOR, color: BG_DARK, boxShadow: `0 4px 15px -3px ${PRIMARY_COLOR}60` }}
                         >
@@ -166,14 +166,14 @@ const Hero = () => (
 
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
                 <a
-                    href="#reservations"
+                    href="https://dotkart.netlify.app/"
                     className="px-10 py-4 text-lg font-extrabold uppercase rounded-lg shadow-xl transform transition duration-300 hover:scale-[1.05] focus:outline-none focus:ring-4"
                     style={{ backgroundColor: PRIMARY_COLOR, color: BG_DARK, boxShadow: `0 8px 25px -5px ${PRIMARY_COLOR}80` }}
                 >
                     Reserve a Table
                 </a>
                 <a
-                    href="#menu"
+                    href="https://dotkart.netlify.app/"
                     className="px-10 py-4 text-lg font-extrabold uppercase rounded-lg border-2 transform transition duration-300 hover:bg-opacity-10 focus:outline-none focus:ring-4"
                     style={{ borderColor: PRIMARY_COLOR, color: PRIMARY_COLOR }}
                 >
@@ -477,9 +477,9 @@ const ContactLocation = () => {
                     />
                     <ContactItem
                         icon="📞"
-                        label="Phone"
-                        content="(123) 456-7890"
-                        href="tel:+1234567890"
+                        label="Contact With Developer"
+                        content="+918436756982"
+                        href="tel:+918436756982"
                     />
                     <ContactItem
                         icon="📧"
